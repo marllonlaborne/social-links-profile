@@ -94,3 +94,24 @@ body {
   font-size: 14px;
   font-weight: var(--semibold-font);
 }
+
+@media (max-width: 375px) {
+  .profile {
+    width: 300px;
+    padding: 25px;
+  }
+  .profile-info p {
+    width: 100%;
+    text-align: center;
+  }
+  .profile-info h2 {
+    font-size: 23px;
+  }
+  .profile-info h4 {
+    font-size: 13px;
+  }
+  .profile-socials a {
+    font-size: 13px;
+    padding: 13px;
+  }
+}
